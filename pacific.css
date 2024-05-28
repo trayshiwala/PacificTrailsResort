@@ -1,0 +1,117 @@
+/* Reset some styles to avoid unexpected behavior */
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+
+/* Styling for body */
+body {
+    background-color: #FFFFFF; /* White background */
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Wrapper styling */
+#wrapper {
+    width: 80%;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+/* Main header styling */
+header {
+    background-color: #002244; /* Darkish blue background */
+    padding: 20px;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #FFFFFF; /* White text */
+    text-align: left; /* Align text to the left */
+}
+
+/* Navigation bar styling */
+nav {
+    width: 200px;
+    background-color: #ADD8E6; /* Lighter blue background */
+    float: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+/* Navigation links styling */
+nav ul {
+    font-size: 1.2em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #344873;
+    display: block;
+    padding: 10px;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+    background-color: #344873;
+}
+
+/* Content styling */
+#content {
+    margin-left: 220px; /* Adjust based on nav width */
+    padding: 20px;
+}
+
+/* Subheader styling */
+h2 {
+    color: #3399CC;
+    font-family: Georgia, "Times New Roman", serif;
+    margin-top: 0;
+}
+
+/* Special coloring for resort name in content */
+.resort {
+    color: #002244; /* Darkish blue */
+}
+
+/* Special bullet for lists */
+ul {
+    list-style-image: url('marker.gif');
+    padding-left: 20px;
+}
+
+/* Contact info styling */
+#contact {
+    font-size: 90%;
+}
+
+/* Definition term styling */
+dt {
+    color: #000033;
+}
+
+/* Footer styling */
+footer {
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center; /* Center-align text */
+    padding: 10px;
+    background: none; /* No background color */
+    color: #666666; /* Gray text */
+    width: 100%;
+    font-style: italic; /* Italicize text */
+    font-size: 0.8em;
+}
